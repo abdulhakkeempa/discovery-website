@@ -43,7 +43,7 @@
 }
 
 .register-button{
-    background-color: palegoldenrod !important;
+    background-color: rgb(81, 74, 94) !important;
     border: 2px solid orangered !important;
     color: orangered !important;
 }
@@ -54,6 +54,26 @@
 .register-button:focus{
     outline: none !important;
 }
+
+
+
+.register-button-reviewer{
+    background-color: palegoldenrod !important;
+    border: 2px solid orangered !important;
+    color: orangered !important; 
+}
+.register-button-reviewer:hover{
+    background-color: orangered !important;
+    color: white !important;
+}
+.register-button-reviewer:focus{
+    outline: none !important;
+}
+
+
+
+
+
 
 .button-modified{
     box-shadow: none !important;
@@ -67,4 +87,7 @@
 }
 .review-card{
     border-radius: 20px !important;
+}
+.card-color{
+    border-radius: 40px !important;
 }
